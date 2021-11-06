@@ -1,3 +1,7 @@
-export const getWelcomeString = (name) => {
-  return `Welcome ${name} to our project`;
+import React from "react";
+
+const GetWelcomeString = () => {
+  return <div>Hello</div>;
 };
+
+export default GetWelcomeString;
