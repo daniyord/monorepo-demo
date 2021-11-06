@@ -1,7 +1,0 @@
-{
-  "name": "@dy/utils",
-  "version": "1.0.0",
-  "dependencies": {
-    "styled-components": "^5.3.3"
-  }
-}
