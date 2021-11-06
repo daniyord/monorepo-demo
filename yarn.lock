@@ -6654,9 +6654,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"common@workspace:packages/common":
+"commonasd@1.0.0, commonasd@workspace:packages/common":
   version: 0.0.0-use.local
-  resolution: "common@workspace:packages/common"
+  resolution: "commonasd@workspace:packages/common"
   dependencies:
     react: ^17.0.2
     react-dom: ^17.0.2
@@ -7032,6 +7032,7 @@ __metadata:
     "@testing-library/jest-dom": ^5.11.4
     "@testing-library/react": ^11.1.0
     "@testing-library/user-event": ^12.1.10
+    commonasd: 1.0.0
     eslint-config-react-app: ^6.0.0
     react-scripts: 4.0.3
     web-vitals: ^1.0.1
