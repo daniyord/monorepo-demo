@@ -1,6 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
-import GetWelcomeString from "commonasd/src/main";
+import GetWelcomeString from "./common/GetWelcomeString";
 
 function App() {
   return (
