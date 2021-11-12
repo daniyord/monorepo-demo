@@ -8,8 +8,10 @@
     "gatsby"
   ],
   "dependencies": {
-    "@dy/common": "1.0.0",
-    "@dy/gatsby-utils": "1.0.0",
+    "@dy/common": "*",
+    "@dy/gatsby-utils": "*",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
     "gatsby": "^4.1.0"
   },
   "scripts": {

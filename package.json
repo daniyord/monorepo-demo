@@ -5,6 +5,19 @@
     "packages": [
       "apps/*",
       "libs/*"
+    ],
+    "nohoist": [
+      "**/react",
+      "**/react-dom",
+      "**/react-native",
+      "**/react-native/**"
     ]
+  },
+  "scripts": {
+    "reset": "find . -name node_modules | xargs rm -rf && rm -rf yarn.lock",
+    "android:metro": "yarn workspace rn start",
+    "android:start": "yarn workspace rn android",
+    "cra": "yarn workspace cra start",
+    "gatsby": "yarn workspace cra start"
   }
 }
